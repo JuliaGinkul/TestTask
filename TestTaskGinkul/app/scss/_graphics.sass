@@ -1,0 +1,106 @@
+.graphics
+    padding-bottom: 28px
+
+.graphic
+    &__wrap
+        display: inline-grid
+        padding-left: 2px
+    &__solid
+        width: 450px
+        float: left
+        height: 225px
+        border-radius: 5px
+        cursor: pointer
+    &__solidtwo 
+        width: 450px
+        float: left
+        height: 225px
+        border-radius: 5px
+    &__nowidth
+        width: 0
+    &__risks
+        display: flex
+        background-color: #fefefe
+        border-radius: 10px
+        margin-left: 23px
+        &-left
+            padding: 52px 31px 0 16px
+            max-width: 220px
+        &-list
+            font-size: 15px
+            list-style: none
+            &_right
+                list-style: none
+                font-size: 13px
+        &-item
+            padding-bottom: 24px
+            &:last-child
+                padding-bottom: 0
+            &_right
+                padding-bottom: 20px
+                position: relative
+                &:nth-child(2)::before
+                    background-color:#938FA0
+                &:nth-child(3)::before
+                    background-color:#C6C6D4
+                &:nth-child(4)::before
+                    background-color:#CD5D67
+                &:nth-child(5)::before 
+                    background-color:#252230
+                &::before
+                    content: ' '
+                    position: absolute
+                    top: -1px
+                    left: -26px
+                    width: 18px
+                    height: 18px
+                    background-color:#4CD964
+        &-right
+            padding: 142px 31px 0 56px
+
+
+.outer
+    width: 450px
+    height: 225px
+    margin: 0 auto
+
+.outer2
+    padding-top: 2px
+
+
+#container1
+    height: 75px
+
+#container2
+    height: 50px
+#container3
+    height: 50px 
+#container4
+    height: 50px 
+#container5
+    height: 50px
+#container6
+    height: 50px
+
+.graphic__risks .highcharts-figure,
+.highcharts-data-table table
+    min-width: 393px
+    max-width: 723px
+    margin: 0
+    margin-top: 57px
+    width: 616px
+
+.highcharts-bullet-target 
+  fill: #CD5D67
+
+.container
+    &__risks
+        height: 452px
+        display: inline-flex
+        vertical-align: top
+
+.settings.clicked > .graphic__solid 
+    border: 2px solid #0579F7
+
+.settings.clicked > .graphic__nowidth
+    border: none

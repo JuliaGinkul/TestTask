@@ -1,0 +1,238 @@
+.menu
+    &-right
+        position: fixed
+        background-color: #fefefe
+        color: #51515C
+        top: 19px
+        right: 0
+        height: 1000px
+        margin-top: 21px
+        width: 300px
+        border-left: solid 1px #C6C6D4
+        padding-left: 10px
+        z-index: 20
+        overflow-y: auto
+        transform: translateX(100%)
+        transition: transform .5s ease-in  
+    &__title
+        font-size: 17px
+        font-weight: 700
+        padding-top: 9px
+    &__pre_title
+        font-size: 11px
+        color: #938FA0
+    &__subtitle
+        font-size: 15px
+        font-weight: 600
+        padding-top: 10px
+        margin-top: 9px
+        &-border
+            position: relative
+            &::before
+                position: absolute
+                top: 0
+                right: 0
+                content: ''
+                width: 104%
+                height: 1px
+                background-color: #C6C6D4
+    &__text
+        font-size: 13px
+        padding: 11px 0 4px
+    &__form
+        padding-top: 8px
+    &_checkbox
+        font-weight: 600
+        display: inline
+        font-size: 11px
+    &__select
+        padding: 2px 82px 2px 2px
+        border-radius: 4px
+        border: 1px solid #C6C6D4
+        display: block
+        background-color: rgba(198, 198, 212, 0.12)
+        font-size: 11px
+        color: #938FA0
+        margin-bottom: 0
+        cursor: pointer
+        width: 101%
+        &-color
+            padding: 4px 19px 3px 0px
+            border-radius: 4px
+            border: 1px solid #C6C6D4
+            display: block
+            background-color: rgba(198, 198, 212, 0.12)
+            color: #938FA0
+            margin-top: 11px
+            height: 25px
+        &-color1 
+            top: 56.3%
+        &-color2 
+            top: 66.2%
+        &-color3
+            top: 76.2%
+    &__input
+        padding: 4px 110px 3px 8px
+        border-radius: 4px
+        border: 1px solid #C6C6D4
+        display: block
+        background-color: rgba(198, 198, 212, 0.12)
+        font-size: 13px
+        color: #938FA0
+        cursor: pointer
+        &-data
+            padding: 3px 0px 3px 6px
+            width: 78px
+            color: #51515C
+            display: initial
+    &__data
+        &-line
+            font-size: 13px
+            color: #C6C6D4
+        &-form
+            display: inline-block
+            padding-left: 18px
+        &-svg
+            cursor: pointer
+            fill: #C6C6D4
+            stroke: #C6C6D4
+            width: 9px
+            height: 11px
+            &:hover 
+                fill: #0579F6
+                stroke: initial
+        &-delete
+            fill-opacity: 0.24
+            fill: #FF3B30
+            width: 10px
+            height: 11px
+        &-add
+            color:#0579F6
+            font-size: 13px
+            display: block
+            padding: 7px 0 10px
+            margin-bottom: 10px
+            background-color: transparent
+            position: relative
+            &::before
+                position: absolute
+                top: 36px
+                right: 0
+                content: ''
+                width: 104%
+                height: 1px
+                background-color: #EBEBF3
+        &-remove
+            color:#FF3B30
+            font-size: 11px
+            font-weight: 600
+            background-color: rgba(255, 59, 48, 0.12)
+            border: none
+            border-radius: 4px
+            display: block
+            padding: 4px 11px
+    &__tabs
+        width: 97%
+        background-color: #f4f4f4
+        border-radius: 5px
+        padding: 2px
+        margin-top: 11px
+
+
+
+
+.form-message
+    width: 96%
+    height: 76px
+    border: 1px solid #C6C6D4
+    background-color: rgba(198, 198, 212, 0.12)
+    border-radius: 4px
+    padding: 8px
+    font-size: 13px
+    resize: vertical
+    font-family: 'Proxima-Nova', sans-serif
+
+
+input[type="color"]
+    background-color: rgba(198, 198, 212, 0.12)
+    border: none
+    width: 20px
+    height: 22px
+    cursor: pointer
+    position: absolute
+    right: 56px
+
+.bell
+    max-width: 30px
+    position: relative
+    top: 1px
+    padding-left: 6px
+
+.input__bell, input[type="checkbox"] 
+    display: none
+        
+
+
+
+
+
+
+
+.label
+    &_dash
+        cursor: pointer
+        float: left
+        display: block
+        padding: 1px 33px
+    &_dash2
+        padding-left: 46px
+        padding-right: 46px
+
+.input_dash:checked + .label_dash 
+    color: #fefefe
+    border-radius: 4px
+    background-color: #0579F6
+
+.input_dash[id="tab-1"]
+    &:checked ~ .content .tab-1,
+        display: block
+
+.input_dash[id="tab-2"]
+    &:checked ~ .content .tab-2
+        display: block
+
+.content
+    clear: both
+    position: relative
+
+.tabs
+    width: 100%
+    position: absolute
+    top: 0
+    left: -2
+    display: none
+
+#tab-1
+    display: none
+    
+#tab-2
+    display: none
+
+
+.show
+    transform: translateX(0px)
+
+
+.overflow .menu-right 
+    position: absolute
+    top: 10px
+    margin-right: 4px
+
+.overflow .table__time
+    width: 116px
+
+.overflow .table__event
+    width: 400px
+
+.overflow .table 
+    width: 32.3%

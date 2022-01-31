@@ -1,0 +1,101 @@
+.changes
+    margin: 30px 0 20px
+    &__wrapp 
+        display: flex
+        justify-content: space-between
+
+.cont
+    border-radius: 5px
+
+
+.highcharts
+    &-root
+        font-size: 14px !important
+        font-weight: 700
+        border-radius: 5px
+    &-axis-labels 
+        font-size: 15px
+        font-weight: 900
+        font-family: 'Proxima-Nova', sans-serif
+    &-credits
+        display: none
+
+.highcharts-figure,
+.highcharts-data-table table 
+    min-width: 670px
+    width: 930px
+    margin-top: 2px
+
+
+.checkbox-custom
+    opacity: 0
+    position: absolute 
+
+.checkbox-custom + .checkbox-custom-label:before
+    content: ''
+    border: 1px solid #C6C6D4
+    border-radius: 5px
+    display: inline-block
+    vertical-align: middle
+    width: 15px
+    height: 17px
+    padding: 1px
+    text-align: center
+
+.checkbox-custom + .checkbox-custom-label:before:nth-child(even)
+    background: #FEFEFE
+
+.checkbox-custom + .checkbox-custom-label:before:nth-child(odd)
+    background: rgba(198, 198, 212, 0.24)
+
+
+.checkbox-custom:checked + .checkbox-custom-label:before  
+    font-size: 15px
+    content: url(/img/arrow.svg)
+    background: #0579F6
+    color: #fff
+
+
+thead
+    background: rgba(198, 198, 212, 0.24)
+    font-size: 17px
+    color: #000
+    text-align: left
+    font-weight: 700
+
+
+.overflow .table 
+    margin-right: 328px
+    transition: all .5s ease-in
+
+.table
+    border-radius: 12px
+    overflow: hidden
+    width: 50%
+    height: 449px
+    display: table
+    margin-left: 25px
+    color: #515151
+    font-size: 13px
+    &__time
+        width: 246px
+    td
+        padding: 2px 9px 4px 10px 
+    th 
+        padding: 2px 9px 4px 10px
+    &__top
+        vertical-align: sub
+    &__center
+        text-align: center
+   
+.span
+    display: block
+
+.table tr:nth-child(even)
+    background-color: rgba(198, 198, 212, 0.24)
+
+.table tr:nth-child(odd)
+    background-color: #fff
+
+.table tr:last-child
+    background-color: rgba(198, 198, 212, 0.24) 

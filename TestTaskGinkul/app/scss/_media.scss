@@ -1,0 +1,573 @@
+
+@media (max-width: 1830px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .overflow .highcharts-figure,
+    .highcharts-data-table table {
+        width: 40%;
+        min-width: 400px;
+    }
+
+    .overflow .table {
+        width: 37%;
+    }
+    .overflow .changes__wrapp {
+        justify-content: unset;
+    }
+}
+
+@media (max-width: 1590px) {
+
+    .graphic__risks-right {
+        padding: 139px 17px 0 56px;
+    }
+    
+    .graphic__risks-list_right {
+        position: absolute;
+        display: inline-flex;
+        bottom: 0;
+        left: 25%;
+    }
+
+    .graphic__risks  {
+        position: relative;
+    }
+    
+    .graphic__risks-item_right  {
+        padding-right: 44px;
+    }
+}
+
+@media (max-width: 1578px) {
+
+    .changes__wrapp {
+        flex-wrap: wrap;
+    }
+
+    .highcharts-figure,
+    .highcharts-data-table table {
+        width: 100%;
+    }
+
+    .overflow .highcharts-figure,
+    .highcharts-data-table table {
+        width: 74%;
+    }
+
+    .overflow .table {
+        width: 74%;
+        margin-right: 0;
+    }
+
+    .table {      
+        width: 100%;
+        margin: 30px 0 13px 0;    
+    }
+
+    .table__center {
+        width: 39px;
+    }
+
+    .table__time {
+        width: 95px;
+    }
+
+    .menu-right {
+        height: 1480px;
+    }
+    .graphic__risks-right {
+        padding: 10px;
+    }
+    .graphic__risks-item_right {
+        padding-right: 36px;
+    }
+    .graphic__risks-item_right:last-child  {
+        padding-right: 0;
+    }
+    .graphic__risks-left {
+        max-width: 211px;
+        padding: 52px 31px 0 10px;
+    }
+    .graphic__risks-right {
+        padding: 0;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1355px) {
+    .header__list {
+        margin-left: 111px;
+    }
+
+    .header__text {
+        padding-left: 0px;
+        margin-right: 12px;
+    }
+
+    .svg-arrow {
+        margin-right: 4px;
+    }
+
+    .nav {
+        padding-left: 12px;
+    }
+    .nav__item-home {
+        padding-right: 8px;
+    }
+
+    .nav__link-svg {
+        margin-right: 2px;
+    }
+
+    .changes {
+        margin: 27px 0 17px;
+    }
+
+    
+    .graphics {
+        padding-bottom: 33px;
+    }
+
+    .graphic__wrap {
+        display: flex;
+        padding-left: 0px;
+    }
+
+    .outer {
+        margin: 0;  
+    }
+    
+    .outer1 {
+        margin-right: 20px;
+    }
+
+    .outer2 {
+        padding-top: 0px;
+    }
+
+    .outer, .graphic__solid, .graphic__solidtwo, .outer > #highcharts-llltlob-29,  .outer > .highcharts-root,  .outer >.highcharts-background {
+        width: 470px;
+    }
+    .overflow .graphic__wrap {
+        justify-content: start;
+    }
+
+    .overflow .outer, .overflow .graphic__solid, .overflow .graphic__solidtwo, .overflow .outer > #highcharts-llltlob-29,  .overflow .outer > .highcharts-root, .overflow .outer >.highcharts-background {
+        width: 385px;
+    }
+
+    .graphic__nowidth {
+        width: 0;
+    }
+    .overflow .graphic__nowidth {
+        width: 0;
+    }
+    .graphic__wrap {
+        justify-content: center;
+    }
+    .menu-right {
+        height: 1840px;
+    }
+    .overflow .menu-right {
+        margin-right: -21px;      
+    }
+
+    
+    .container__risks {
+        display: flex;
+        justify-content: center;
+        height: 585px;
+    }
+
+    .graphic__risks .highcharts-figure,
+    .highcharts-data-table table {
+       width: 723px;
+    }
+
+    
+    .graphic__risks {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    
+    
+    .graphic__risks-right {
+        padding-right: 0;
+    }
+    
+    .graphic__risks-list_right {
+        flex-wrap: wrap;
+        bottom: 48px;
+        left: 25.6%;
+    }
+    
+    .graphic__risks-item_right  {
+        padding-right: 54px;
+    }
+    .graphic__risks-item_right:last-child  {
+        padding-right: 0;
+    }
+
+    .overflow .container__risks {
+        justify-content: start;
+    }
+
+    .overflow .graphic__risks .highcharts-figure, .highcharts-data-table table {
+        width: 590px;
+    }
+}
+
+
+
+@media (max-width: 1123px) {
+    .nav__item-home {
+        padding-right: 11px;
+    }
+
+    .overflow .highcharts-figure, .highcharts-data-table table {
+        width: 70%;
+    }
+
+    .overflow .table {
+        width: 70%;
+    }
+
+    .table td, .table th {
+        padding: 4px 10px 4px 8px;
+    }
+
+    .table__time {
+        width: 246px;
+    }
+
+    .changes {
+        margin: 27px 0 23px;
+    }
+
+
+    .overflow .outer, .overflow .graphic__solid, .overflow .graphic__solidtwo, .overflow .outer > #highcharts-llltlob-29, .overflow .outer > .highcharts-root, .overflow .outer >.highcharts-background {
+        width: 325px;
+    }
+    .overflow .graphic__nowidth {
+        width: 0;
+    }
+    .graphic__risks {
+       margin-left: 0px; 
+       padding-right: 15px;
+       
+    }
+    .overflow .graphics {
+        padding-bottom: 0;
+    }
+    .overflow .graphic__risks {
+        height: 484px;
+       padding-right: 12px;
+    }
+    .container__risks {
+        height: 613px;
+    }
+
+    .graphic__risks-left {
+        max-width: 231px;
+    }
+    .graphic__risks-left {
+        padding: 55px 31px 0 10px;
+    }
+    .overflow .graphic__risks-left {
+        padding: 52px 31px 0 10px;
+    }
+    .graphic__risks-list_right {
+        bottom: 78px;
+    }
+    .overflow .graphic__risks-list_right {
+        bottom: 40px;
+        left: 6.6%;
+    }
+
+    .graphic__risks-item_right {
+        padding-right: 51px;
+    }
+
+    .graphics {
+        padding-bottom: 58px;
+    }
+    
+    .overflow .graphic__risks .highcharts-figure, .highcharts-data-table table {
+        width: 621px;
+        margin-top: 23px;
+    }
+
+    .graphic__risks .highcharts-figure, .highcharts-data-table table {
+        margin-top: 23px;
+    }
+
+    
+    .overflow .graphic__risks-left {
+        display: none;
+    }
+
+    .overflow .graphic__risks {
+        padding-left: 9px;
+        padding-right: 39px;
+    }
+
+    .overflow .graphic__risks .highcharts-figure, .highcharts-data-table table {
+        margin-top: 16px;
+    }
+
+    .overflow .graphic__risks-list_right {
+        left: 5.6%;
+    }
+    .overflow .menu-right {
+        height: 1853px;
+    }
+}
+
+
+@media (max-width: 995px) {
+    .overflow .outer, .overflow .graphic__solid, .overflow .graphic__solidtwo, .overflow .outer > #highcharts-llltlob-29, .overflow .outer > .highcharts-root, .overflow .outer >.highcharts-background {
+        width: 300px;
+    }
+
+    .overflow .graphic__nowidth {
+        width: 0;
+    }
+    .overflow .menu-right {
+        height: 1848px;
+    }
+
+
+
+    .graphic__risks {
+        padding-left: 53px;
+        margin-left: 44px;
+    }
+    .graphic__risks-left {
+        display: none;
+    }
+
+    .graphic__risks-list_right {
+        left: 8.6%;
+    }
+    .graphic__risks-right {
+        padding-right: 60px;
+    }
+}
+
+@media (max-width: 980px) {
+    .header__list {
+        margin-left: 30px;
+    }
+    .header__item {
+        padding-right: 15px;
+        font-size: 11px;
+    }
+    
+    .link-notification {
+        margin-right: 0px;
+    }
+    .header__text {
+        font-size: 10px;
+    }
+
+    .overflow .highcharts-figure, .highcharts-data-table table {
+        width: 60%;
+    }
+    
+    .overflow .table {
+        width: 60%;
+    }
+
+    .graphic__wrap {
+        flex-wrap: wrap-reverse;
+    }
+    
+    .outer, .graphic__solid, .graphic__solidtwo, .outer > #highcharts-llltlob-29,  .outer > .highcharts-root,  .outer >.highcharts-background {
+        width: 435px;
+    }
+
+    .outer {
+        margin: 10px;
+    }
+
+    .graphic__nowidth {
+        width: 0;
+    }
+    .overflow .menu-right {
+        height: 1870px;
+    }
+    
+}
+@media (max-width: 965px) {
+    .overflow .menu-right {
+        height: 1970px;
+    }
+}    
+@media (max-width: 955px) {
+
+    .graphic__risks {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .graphic__risks-right {
+        padding-right: 0px;
+    }
+}
+@media (max-width: 760px) {
+    .overflow .menu-right {
+        height: 2060px;
+    }
+
+}
+@media (max-width: 750px) {
+    .graphic__risks .highcharts-figure, .highcharts-data-table table {
+        width: 550px;
+    }
+}
+@media (max-width: 690px) {
+    input[type="color"] {
+        left: 202px;
+    }
+
+    .menu-right {
+        width: 107.5%;
+        border: none; 
+        height: 1225px;
+    }
+    .overflow .menu-right {
+        margin-right: -19; 
+    }
+
+    .highcharts-figure, .highcharts-data-table table {
+        min-width: 300px;
+    }
+
+    .graphic__risks {
+        padding: 0;
+    }
+    
+    
+    .graphic__risks-right {
+        padding: 0;
+    }
+    
+    .graphic__risks-list_right {
+        left: 13%;
+    }
+    .overflow .table {
+        width: 90%;
+    }
+
+    .overflow .graphic__risks .highcharts-figure, .highcharts-data-table table {
+        width: 393px;
+    }
+    .overflow .graphic__risks {
+        padding-left: 11px;
+        padding-right: 22px;
+    }
+
+    .overflow .graphic__risks-list_right {
+        left: 10.6%;
+    }
+    
+}
+
+@media (max-width: 680px) {
+    .overflow .graphic__wrap {
+        justify-content: center;
+    }
+
+    .overflow .outer, .overflow .graphic__solid, .overflow .graphic__solidtwo, .overflow .outer > #highcharts-llltlob-29, .overflow .outer > .highcharts-root, .overflow .outer >.highcharts-background {
+        width: 460px;
+    }
+
+    .overflow .graphic__nowidth {
+        width: 0;
+    }
+
+}
+@media (max-width: 560px) {
+    
+    .menu-right {
+        width: 109%;
+    }
+    .header__list {
+        display: none;
+    }
+
+    .header__icons {
+        display: none;
+    }
+
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .menu__header {
+        padding-top: 24px;
+    }
+    .table__time {
+        width: 83px;
+    }
+
+    .table td, .table th {
+        padding: 0px 11px 0px 7px;
+    }
+
+    .table__center {
+        width: 36px;
+    }
+
+    .changes {
+        margin-bottom: 17px;
+    }
+
+    .container__risks {
+        height: 509px;
+    }
+
+    .graphic__risks .highcharts-figure, .highcharts-data-table table {
+        width: 393px;
+        margin-top: 0;
+    }
+
+    .graphic__risks {
+        padding: 20px 20px 0 20px;
+    }
+
+    .graphic__risks-list_right {
+        left: 11%;
+    }
+
+    .graphic__risks-item_right {
+        padding-right: 51px;
+    }
+
+    .graphics {
+        padding-bottom: 51px;
+    }
+    .graphic__risks-list_right {
+        bottom: 49px;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+

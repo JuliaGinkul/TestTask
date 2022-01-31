@@ -1,0 +1,22 @@
+.footer
+    background-color: #FEFEFE
+    z-index: 30
+    position: relative
+    &__list
+        display: flex
+        align-items: center
+        list-style: none
+    &__item
+        &-btn
+            background: rgba(198, 198, 212, 0.12)
+            padding: 6px 16px
+            border-right: 1px solid #EBEBF3
+            color: #51515C
+            font-size: 15px
+            border: none
+        &:first-child
+            border-left: 1px solid #EBEBF3
+
+.active, .footer__item-btn:hover
+    background-color: rgba(5, 121, 247, 0.12)
+    color: #0579F6

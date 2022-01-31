@@ -1,0 +1,143 @@
+.hamburger-menu
+    display: none
+    position: fixed
+    top: 2px
+    right: -87px
+    width: 27.5%
+    height: 25px
+    cursor: pointer
+    z-index: 9998
+  
+.bar
+    position: relative
+    transform: translateY(10px)
+    background: #fefefe
+    transition: all 0ms 300ms
+    width: 23px
+    height: 3px
+    &:after
+        content: ""
+        position: absolute
+        right: 0
+        top: 7px
+        background: #fefefe
+        transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1)
+        width: 23px
+        height: 3px
+    &:before
+        width: 23px
+        height: 3px
+        content: ""
+        position: absolute
+        right: 0
+        bottom: 7px
+        background: #fefefe
+        transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1)
+    
+
+  
+.bar.animate
+        background: rgba(255, 255, 255, 0)
+
+.bar.animate
+    &:after
+        top: 0
+        transform: rotate(45deg)
+        transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1)
+    &:before
+        bottom: 0
+        transform: rotate(-45deg)
+        transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1)
+
+.mobile-menu.active
+    left: 0
+    top: 29px
+    background-color: #17569B
+    transform: translate3d(0, 0, 0)
+    transition: all 500ms ease-in-out
+    height: 100%
+   
+.mobile
+    &-menu
+        top: 0
+        left: -100%
+        width: 100%
+        color: #fefefe
+        height: 723px
+        position: fixed
+        z-index: 9997
+        overflow-y: scroll
+        transform: translate3d(0, 0, 205px)
+        transition: all 500ms ease-in-out
+        &-list
+            padding-top: 49px
+            padding-left: 20px
+        &-item
+            font-size: 16px
+            font-weight: 600
+            overflow: hidden
+            padding: 10px
+            position: relative
+            padding-bottom: 20px
+            &:first-child
+                padding-bottom: 74px
+                font-size: 18px
+            &:last-child
+                padding-bottom: 70px
+                padding-top: 169px
+            a
+                text-decoration: none
+                color: #fefefe
+        &-text
+            display: inline-block
+            vertical-align: top
+
+.menu
+    &__header
+        padding: 22px 13px 14px 30px
+        display: flex
+        justify-content: space-between
+        background-color:#2C67A6
+        &-link
+            position: relative
+        &-photo
+            cursor: pointer
+            width: 49px
+            height: 49px
+        &-text
+            font-size: 14px
+            color: #C6C6D4
+            position: absolute
+            display: inline-grid
+            left: 64px
+        &-name
+            font-size: 20px
+            font-weight: 700
+            color: #fefefe
+            padding-right: 30px
+            padding-top: 6px
+    &__link
+        &-svg-arrow
+            cursor: pointer
+            fill: #fff
+            stroke: #fff
+            width: 12px
+            height: 9px
+            margin-left: 5px
+        &-svg-exit
+            cursor: pointer
+            fill: #fff
+            stroke: #fff
+            width: 18px
+            height: 18px
+            margin-right: 10px
+
+
+.header
+    &__link-svg-bell
+        cursor: pointer
+        fill: #fff
+        stroke: #fff
+        width: 12px
+        height: 15px
+        margin-right: 10px
